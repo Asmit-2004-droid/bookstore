@@ -49,12 +49,12 @@
     nav ul li:hover ul {
       display: flex;
     }
-    .hero {
+    .intro{
       text-align: center;
       padding: 50px 20px;
       background: #ecf0f1;
     }
-    .hero h1 {
+    .intro h1 {
       font-size: 2.5rem;
       margin-bottom: 10px;
     }
