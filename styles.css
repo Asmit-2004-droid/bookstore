@@ -3,17 +3,20 @@
       padding: 0;
       box-sizing: border-box;
       font-family: Arial, sans-serif;
-    }
+    } 
+
     body {
       background: #f7f7f7;
       color: #0bbec8;
     }
+
     nav {
       position: sticky;
       top: 10px;
       background: #2c3e50;
       padding: 10px 20px;
     }
+
     nav ul {
       list-style: none;
       display: flex;
@@ -36,6 +39,7 @@
       background: #34495e;
       border-radius: 5px;
     }
+
     nav ul li ul {
       position: absolute;
       top: 40px;
@@ -49,21 +53,25 @@
     nav ul li:hover ul {
       display: flex;
     }
+
     .intro{
       text-align: center;
       padding: 50px 20px;
       background: #ecf0f1;
     }
+
     .intro h1 {
       font-size: 2.5rem;
       margin-bottom: 10px;
     }
+
     .categories {
       display: flex;
       justify-content: center;
       margin: 20px auto;
       gap: 15px;
     }
+
     .categories button {
       padding: 10px 20px;
       border: none;
@@ -72,7 +80,37 @@
       border-radius: 25px;
       cursor: pointer;
     }
+
     .categories button:hover {
       background: #34495e;
       transform: scale(1.05);
     }
+
+    .books{
+      display :flex;
+    }
+
+    .bookbank {
+      width: 20%;
+    }
+
+    .bookbank img{
+      width:90%;
+      height:100%;
+    }
+
+    .rules{
+      margin-top:100px;
+      text-align:center;
+    }
+
+    .rules h1{
+      color:#34495e;
+    }
+
+    .contact{
+      margin-top:50px;
+      background:#34495e;
+      padding:20px;
+    }
+    
