@@ -9,19 +9,19 @@
 <body>
      <header>
     <nav>
-      <h1>BookStore</h1>
       <ul>
-        <li><a href="#home">Home</a></li>
+      <h1>BookStore</h1>
+        <li><a href="index.html">Home</a></li>
         <li><a href="#categories">Categories </a>
           <ul>
-            <li><a href="#fiction">Fiction</a></li>
-            <li><a href="#thriller">Thriller</a></li>
-            <li><a href="#sci-fi">Sci-Fi</a></li>
-            <li><a href="#comics">Comics</a></li>
-            <li><a href="#kids">Kids</a></li>
+            <li><a href="fiction.html">Fiction</a></li>
+            <li><a href="thriller.html">Thriller</a></li>
+            <li><a href="sci-fi.html">Sci-Fi</a></li>
+            <li><a href="comics.html">Comics</a></li>
+            <li><a href="kids.html">Kids</a></li>
           </ul>
         </li>
-        <li><a href="#Books">Books</a></li>
+        <li><a href="#rules">Instruction</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
@@ -30,27 +30,27 @@
     <marquee><h1>Welcome To My Book Store</h1></marquee>
     <p>Find Your Next Adventure in Books</p>
   </div>
-  <div class="categories">
+  <div id="categories">
     <button>All</button>
-    <button>Fiction</button>
-    <button>Thriller</button>
-    <button>Sci-Fi</button>
-    <button>Comics</button>
-    <button>Kids</button>
+    <button><a href="fiction.html">Fiction</button></a>
+    <button><a href="thriller.html">Thriller</a></button>
+    <button><a href="sci-fi.html">Sci-Fi</a></button>
+    <button><a href="comics.html">Comics</a></button>
+    <button><a href="kids.html">Kids</a></button>
   </div>
-  <div class="books">
-     <div class="bookbank">
+  <div id="books">
+    <div class="bookbank">
       <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSz6vyyb8jogUUCMnP3T6eJg4xeh5fcS-hrB0hivfa3V73QB8Lg_D7MlGM9WPGvuKBbartnqzccsfsZYm2QAWvn--Ta6YZYTjJ4ekk9VjdclOjhWTBir83GCA" alt="Book 1">
       <h3>The Art Of Being Alone </h3><br>
       <p>Prize ₹144</p>
       <button> Add to cart</button>
-     </div>
-     <div class="bookbank">
+    </div>
+    <div class="bookbank">
       <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTkrcUxWgCzTNjGc2NAl1tRhKeSMdI9riuIt5st__E_zk6UNoiqQ_6sXhbkkkXS0nKZM22i6qus9ZoxqxTXUVovlmrzDCNpS52Euln8VxEx" alt="Book 2">
       <h3>Time Machine</h3><br>
       <p>Prize ₹192</p>
       <button> Add to cart</button>
-  </div>
+    </div>
   <div class="bookbank">
     <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQKxEt3OcFmPuOu3Yr7LL165-exP9rh6RKKc3SZhhj3sKW2_3MXsL1GTJ2tsmwfCHTUG92ZOlAMnWyMTs7GANgnXHMDi2f39BVK6-qfSPpIz5fwypMBJehO" alt =" Book 3">
     <h3>Attitude Is Everything</h3><br>
@@ -76,18 +76,28 @@
     <button>Add to cart</button>
   </div>
   </div>
-  <div class="rules">
+  <div id="rules">
     <h1> How To Purchase</h1><br>
-    <b>All categories of books are available on this website.<br>For purchasing the books you must enter your detailsin the contact section,<br>
-    Then add the books to your cart of your choice.<br>Now ,the books you choose are added to your cart.<br>Go to the cart section and choose the method of payment.<br>
-  Pay for your books.Now the books are yours.<br><b>Thank you for visiting our Book Store</b></p>
+    <ul>
+      <li>All categories of books are available on this website.</li>
+      <li>For purchasing the books you must enter your detailsin the contact section.</li>
+      <li>Then add the books to your cart of your choice.</li>
+      <li>Now ,the books you choose are added to your cart.</li>
+      <li>Go to the cart section and choose the method of payment.</li>
+      <li>Pay for your books.Now the books are yours.</li>
+      <li><b>Thank you for visiting our Book Store</b></li>
+    </ul>
   </div>
-  <div class ="contact">
-    <h1>Contact</h1>
+  <div id ="contact">
+    <h1>Contact Us</h1>
     <p><b>Name:</b> Asmit Gupta<br>
     <b>Email:</b> asmitgupta2006@gmail.com<br>
-    <b>contact no. : 9140928921</b> </p>
-
+    <b>Contact no. :</b>  9140928921</p><br><br>
+    <p>List your books here so that we may make available the books</p>
+     <textarea rows="5" cols="70" name="message" placeholder="List the books" ></textarea>
   </div>
+  <div class="copyright">
+        <p>@ All rights reserved.Designed by Asmit Gupta.</p>
+    </div>
 </body>
 </html>
