@@ -107,6 +107,10 @@
       height:100%;
     }
 
+    .bookbank img:hover{
+      transform: translateY(-15px);
+      transition: all 0.3s ease;
+    }
     #rules{
       margin-top:170px;
       text-align:center;
